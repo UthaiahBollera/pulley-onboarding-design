@@ -3,12 +3,12 @@ import List from "./views/help-list.js";
 
 export default [
   {
-    path: '/',
+    path: '/pulley-onboarding-design/',
     view: Home,
     defaultRoute: true
   },
   {
-    path: '/list',
+    path: '/pulley-onboarding-design/list',
     view: List
   }
 ];
